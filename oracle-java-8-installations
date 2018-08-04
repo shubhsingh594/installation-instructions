@@ -5,9 +5,9 @@ HOW TO INSTALL ORACLE JAVA
 . once that is done we need to run the following commands into the terminal
 
 Update your java alternatives using below scripts
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/java/jdk1.7.0_65/bin/java" 1
-sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/java/jdk1.7.0_65/bin/javac" 1
-sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/java/jdk1.7.0_65/bin/javaws" 1
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.7.0_65/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk1.7.0_65/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/local/java/jdk1.7.0_65/bin/javaws" 1
 
 the last flag is the priority flat, this can be change, to manage multiple installations.
 
